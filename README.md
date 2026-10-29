@@ -1,3 +1,4 @@
+
 # Group A - Phishing Awareness Project (SARG Internship)
 
 ⚠️ **EDUCATIONAL SIMULATION ONLY - NO BACKEND - NO DATA COLLECTION**
