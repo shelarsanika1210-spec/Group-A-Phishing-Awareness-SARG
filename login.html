@@ -1,12 +1,27 @@
-<!DOCTYPE html><html><body style="text-align:center;font-family:Arial;margin:0">
-<div style="background:#ff9800;padding:8px;font-weight:bold">EDUCATIONAL SIMULATION - NO BACKEND - NO STORAGE</div>
-<div style="max-width:400px;margin:40px auto;border:2px solid #0a2a5e;padding:20px;border-radius:10px">
-<p style="font-size:12px;color:gray">naviotech-helpdesk.com/login (simulated, not a real site)</p>
-<h3>Sign in to your account</h3>
-<form onsubmit="event.preventDefault();location='awareness.html'">
-<input placeholder="Email / Username" style="width:90%;padding:10px;margin:5px" required><br>
-<input placeholder="Password" type="password" style="width:90%;padding:10px;margin:5px" required><br>
-<button style="width:95%;background:#0a2a5e;color:white;padding:10px;margin-top:10px;border-radius:5px">Sign In</button>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulated Login - Phishing Awareness Demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="banner">⚠️ EDUCATIONAL SIMULATION - NO REAL DATA COLLECTED - FOR AWARENESS PROJECT ONLY</div>
+<div class="login-box">
+<div class="header"><h2>🔒 Simulated Login Page</h2></div>
+<div class="disclaimer">
+<b>Disclaimer:</b> This is a simulated page for Phishing Awareness Project (SARG). No credentials are collected or stored. This is for education only.
+</div>
+<p style="font-size:13px;color:#5f6368;">This page simulates how a phishing page might look. In real attack, attacker steals data. Here we STOP.</p>
+<h3>Sign in to your account (Simulation)</h3>
+<form onsubmit="event.preventDefault(); window.location.href='aware.html';">
+<input placeholder="Demo Email (do not use real password)" type="text" required>
+<input placeholder="Demo Password (fake)" type="password" required>
+<button class="btn" type="submit">Continue to Awareness</button>
 </form>
-<p style="color:green;font-size:12px;margin-top:15px">No credential harvesting | No data collected</p>
-</div></body></html>
+<p style="color:#d93025;font-size:12px;margin-top:15px;"><b>Learning Point:</b> Always check URL. Real company will not ask login via email link like this.</p>
+<a href="aware.html" style="font-size:13px;">Skip to Awareness Info →</a>
+</div>
+</body>
+</html>
