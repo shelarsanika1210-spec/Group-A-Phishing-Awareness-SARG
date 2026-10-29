@@ -19,4 +19,4 @@ https://github.com/shelarsanika1210-spec/Group-A-Phishing-Awareness-SARG
 - No backend / No database / No localStorage / No API
 - 20 participants with consent, No data collected
 
-Made by Sanika Shelar - NavioTech Solution Group-A
+Made by Sanika Shelar, Roshani Patel, Ayush Singh, GOURNAG SINGH- NavioTech Solution Group-A
